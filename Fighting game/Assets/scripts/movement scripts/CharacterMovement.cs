@@ -62,10 +62,5 @@ public class PlayerMovement : MonoBehaviour
 
         // Set the Rigidbody velocity to control movement directly
         rb.velocity = new Vector3(movement.x, rb.velocity.y, movement.z);
-
-        // Log values for debugging
-        Debug.Log($"Horizontal Input: {horizontal}, Vertical Input: {vertical}");
-        Debug.Log($"Movement Vector: {movement}");
-        Debug.Log($"Rigidbody Velocity: {rb.velocity}");
     }
 }

@@ -7,7 +7,7 @@ using UnityEngine;
 public class Jump : MonoBehaviour
 {
     private Rigidbody rb;
-    private bool grounded = true;
+    public static bool grounded = true;
     // Start is called before the first frame update
     void Start()
     {
